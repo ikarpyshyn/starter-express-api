@@ -5,7 +5,7 @@ app.all('/', (req, res) => {
     res.send('Hi its Ihor~~~1~!')
 })
 app.listen(process.env.PORT || 3000)
-<!DOCTYPE HTML>
+// <!DOCTYPE HTML>
 // <html>
 // <head>
 // <meta name="viewport" content="width=device-width, initial-scale=1">

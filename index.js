@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 app.all('/', (req, res) => {
     console.log("Just got a request!")
-    res.send('Hi its Ihor~~~1~!')
+    res.send('<h1>Hi its Ihor~~~1~!<h1>')
 })
 app.listen(process.env.PORT || 3000)
 // <!DOCTYPE HTML>
